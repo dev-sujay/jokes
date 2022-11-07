@@ -11,6 +11,7 @@ const jokes = ["The definition of a perfectionist: someone who wants to go from 
     "Why do we tell actors to 'break a leg? 'Because every play has a cast.",
 
     "What does a pig put on dry skin? Oinkment.",
+
     "What do you call it when a snowman throws a tantrum? A meltdown.",
 
     "My uncle named his dogs Timex and Rolex. They're his watch dogs.",
@@ -66,7 +67,7 @@ const jokeContainer = document.querySelector(".joke-container")
 
 const button = document.querySelector("#btn")
 
-const randomJoke = Math.floor(Math.random() * 31)
+const randomJoke = Math.floor(Math.random() * 30)
 jokeContainer.innerHTML = jokes[randomJoke]
 
 
@@ -78,3 +79,4 @@ button.addEventListener('click', function () {
 })
 
 
+// console.log(jokes.length);//returns the number of elements in the aaray
