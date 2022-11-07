@@ -79,4 +79,4 @@ button.addEventListener('click', function () {
 })
 
 
-// console.log(jokes.length);//returns the number of elements in the aaray
+//! console.log(jokes.length);//returns the number of elements in the aaray
