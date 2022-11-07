@@ -73,7 +73,7 @@ jokeContainer.innerHTML = jokes[randomJoke]
 
 button.addEventListener('click', function () {
 
-    const randomJoke = Math.floor(Math.random() * 31)
+    const randomJoke = Math.floor(Math.random() * 30)
     jokeContainer.innerHTML = jokes[randomJoke]
 
 })
